@@ -18,6 +18,18 @@ body
    background-attachment: fixed;         /* 固定 */
    background-position: center center;   /* 縦横中央 */
 }
+.headwrap
+{
+    margin-top: 0;
+    width: 100%;
+    height: 40px;
+    z-index: 99;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin: 0 auto ;
+    margin-top: 0;
+}
 .line
 {
     height: 6px;
