@@ -264,3 +264,14 @@ img#toppho
   .slide-dots{
     text-align: center;
   }
+
+  .topindex
+  {
+      display: none;
+      margin-left: 10px;
+      width: 110px;
+      height: 100px;
+      background-color: rgb(230, 230, 230);
+      border-radius: 10px 10px 10px 10px;
+      text-align: center;
+  }

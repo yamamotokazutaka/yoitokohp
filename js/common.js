@@ -16,3 +16,11 @@ $(function(){
     centerMode: true
   });
 });
+
+$(document).ready(function() {
+  $(".home").hover(function(){
+    $(this).find(".topindex").slideDown();
+  }, function(){
+    $(this).find(".topindex").slideUp();
+  });
+});
