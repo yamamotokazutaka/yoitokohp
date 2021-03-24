@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>よいとこホームページ</title>
+
+<link rel="stylesheet" href="css/yoitokocss.css">
+<link rel="stylesheet" href="css/lightbox.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
+
+<script type="text/javascript">
+    function ScrollWindow(elem) {
+        var element = document.getElementById(elem);
+        var rect = element.getBoundingClientRect();
+        var elemtop = rect.top + window.pageYOffset;
+        document.documentElement.scrollTop = elemtop;
+    }
+
+</script>
+
+</head>
+<body>
+<div id="toppos">
+</div>
+ 
+<ul class="slick01">
+    <li><img alt="画像1" src="images/TOP.jpeg" /></li>
+    <li><img alt="画像2" src="images/fivecog.jpg" /></li>
+  </ul>
+<div class="headwrap" id = "hptop"> 
+    <div class="headerlink">
+        <div class = "home">
+            <a href="index.html">よいとこ健診とは</a>
+        </div>
+        <div class = "try">
+            <a href="online.html">コロナ渦での取り組み</a>
+        </div>
+        <div class = "conntact">
+            <a href="conntact.html">お問い合わせ先</a>
+        </div>
+    </div>
+    <div class = "title">
+        <a id="link_section1" href="javascript:void(0);" onclick="ScrollWindow('toppos');">よいとこ健診ホームページ</a>
+    </div>
+    <div class = "line">
+    </div>
+</div>
+
+<div class = "topphoto">
+    <img id = "toppho" src="images/TOP.jpeg" >
+</div>
+
+<!-- よいとこ健診とは -->
+<div id="home" class="content_block" style="height:1700px;"> 
+    <div class="content_main"style="height:1700px;"> 
+        <p id = "title">コロナ渦での取り組み</p>
+        <br>
+        　・説明
+        <br>
+        　・健診の様子（写真/Facebookのリンク）
+        <br>
+        　・youtubeのリンク
+   
+    </div>
+</div>
+
+
+
+<div  id="conntact" class="content_block"style="height:50px;"> 
+    
+</div>
+<script src="js/lightbox-plus-jquery.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+</body>
+</html>
