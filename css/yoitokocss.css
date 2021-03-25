@@ -22,13 +22,15 @@ body
 {
     margin-top: 0;
     width: 100%;
-    height: 40px;
+    height: 50px;
     z-index: 99;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     margin: 0 auto ;
     margin-top: 0;
+    background-color: rgb(137, 195, 235,0.85);
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
 }
 .line
 {
@@ -39,8 +41,8 @@ body
 }
 .headerbox
 {
-    width: 1200px;
-    height: 50px;
+    width: 1300px;
+    height: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -48,12 +50,15 @@ body
 }
 .title
 {
+    font-family: 'Secular One', sans-serif;
     font-size: 25px;
     font-weight: bold;
+
     color: rgb(78, 135, 241);
-    width: 300px;
+    width: 350px;
     height: 40px;
-   padding-top: 10px;
+   padding-top: 11px;
+
 }
 .headerlink
 {
@@ -64,7 +69,7 @@ body
     justify-content: space-evenly;
     font-weight: bold;   
     margin-right: 0%;
-    padding-top: 25px;
+    padding-top: 20px;
 }
 a{
     text-decoration: none;
@@ -214,6 +219,7 @@ img#toppho
 {
     margin: 0 auto;
     text-align: center;
+    outline:none;
 }
 
 .slick01{
@@ -271,7 +277,7 @@ img#toppho
       margin-left: 10px;
       width: 110px;
       height: 100px;
-      background-color: rgb(230, 230, 230);
+      background-color: rgb(137, 195, 235,0.85);
       border-radius: 10px 10px 10px 10px;
       text-align: center;
   }

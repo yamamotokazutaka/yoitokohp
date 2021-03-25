@@ -12,6 +12,7 @@ $(function(){
     fade: true,
     arrow: false,
     pauseOnHover: false,
+    pauseOnFocus: false,
     arrows: false,
     centerMode: true
   });
