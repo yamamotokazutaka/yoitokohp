@@ -114,8 +114,9 @@ a#taiken
 .text_main
 {
     width: 1000px;
-    margin: 0 auto;
+    margin: 0 auto;  
 }
+
 
 p#title
 {
@@ -130,7 +131,20 @@ p#title
     width:980px;
     margin: 0 auto;
     text-align: center;
+   
 }
+.animation_block
+{
+    opacity: 0;
+    transform: translate3d(50px, 0px, 0);
+    transition: opacity 1.5s, transform 1.5s;
+}
+
+.is-animated {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
 .para#top
 {
     width:980px;
