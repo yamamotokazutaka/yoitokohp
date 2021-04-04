@@ -44,12 +44,28 @@ body
 {
     margin: 0 auto;
     margin-top: 20px;
-    padding-left: 155px;
-    width: 1050px;
-    height: 800px;
+    width: 100%;
+    max-width: 1050px;
+    height: 570px;
     display: flex;
 }
-
+.kaisaipara
+{
+    padding: 20px;
+    width: 100%;
+    max-width: 525px;
+}
+.leftkaisaipara
+{
+    width: 100%;
+    padding-left: 100px;
+}
+.rightkaisaipara
+{
+    width: 100%;
+    padding-left: 100px;
+    border-left: 1px solid black;
+}
 span#kaisaititle
 {
     width: 100%;
@@ -84,7 +100,7 @@ span#kaisaititle
     font-size: 40px;
     font-weight: bold;
     color: rgb(36, 101, 199);
-    width: 550px;
+    width: 570px;
     height: 40px;
     padding-top: 18px;
     margin-left: 15px;
