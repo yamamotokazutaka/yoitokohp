@@ -20,7 +20,7 @@ body
 }
 .wrap
 {
-    overflow: hidden;
+    /* overflow: hidden; */
     margin-top: 100px;
 }
 .headwrap
