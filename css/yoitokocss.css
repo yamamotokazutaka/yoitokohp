@@ -172,8 +172,8 @@ p#title
     max-width:980px;
     margin: 0 auto;
     text-align: center;
-   
 }
+
 .animation_block
 {
     opacity: 0;
@@ -188,6 +188,7 @@ p#title
 
 .para#top
 {
+    padding-left: 20px;
     width: 100%;
     max-width:980px;
     text-align: left;
