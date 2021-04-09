@@ -27,7 +27,7 @@ $(document).ready(function() {
 });
 
 
-let targets = document.querySelectorAll('.animation_block');//アニメーションさせたい要素
+let targets = Array.from(document.querySelectorAll('.animation_block'));//アニメーションさせたい要素
 let offset = 100;//アニメーションタイミング
 
 window.addEventListener('scroll', function() {//スクロールしたとき
