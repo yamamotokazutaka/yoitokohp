@@ -27,12 +27,13 @@ $(document).ready(function() {
 });
 
 
-let targets = Array.from(document.querySelectorAll('.animation_block'));//アニメーションさせたい要素
+let testtargets = document.querySelectorAll('.animation_block');//アニメーションさせたい要素
+let targets = Array.prototype.slice.call(testtargets,0); 
 let offset = 100;//アニメーションタイミング
 
 window.addEventListener('scroll', function() {//スクロールしたとき
 
-  var scroll = window.scrollY;//スクロール量を取得
+  var scroll = window.scrollY || window.pageYOffset;//スクロール量を取得
   var h = window.innerHeight;//画面の高さを取得
 
   for(var i = 0; i< targets.length; i++) {
