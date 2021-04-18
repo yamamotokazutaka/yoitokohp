@@ -109,7 +109,7 @@ span#kaisaititle
 .headerlink
 {
     color: rgb(36, 101, 199);
-    width: 500px;
+    width: 580px;
     height: 40px;
     display: flex;
     justify-content: space-evenly;
@@ -152,7 +152,7 @@ a#taiken
 .text_main
 {
     width: 100%;
-    max-width: 900px;
+    max-width: 950px;
     margin: 0 auto;  
 }
 
@@ -168,7 +168,7 @@ p#title
 .para
 {
     width: 100%;
-    max-width:980px;
+    max-width:930px;
     margin: 0 auto;
     text-align: center;
 }
@@ -189,7 +189,7 @@ p#title
 {
     padding-left: 20px;
     width: 100%;
-    max-width:980px;
+    max: width 930px;
     text-align: left;
 }
 .pic_group
